@@ -1,6 +1,7 @@
 import sqlalchemy
 import sqlalchemy.orm as sql_orm
 import database
+from passlib import hash
 
 class User(database.Base):
     __tablename__ = "users"
@@ -13,6 +14,9 @@ class User(database.Base):
     company_position = sqlalchemy.Column(sqlalchemy.String)
 
     skills = sql_orm.relationship("Skill",back_populates = "user")
+
+    def verify_password(self, password: str):
+        return hash.bcrypt.verify(password, self.hashed_password)
 
 class Skills(database.Base):
     __tablename__ = "skills"
