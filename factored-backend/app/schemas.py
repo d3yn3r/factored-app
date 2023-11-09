@@ -19,3 +19,18 @@ class User(User_Base):
 
     class config:
         orm_mode : True
+
+# parent skill class
+class Skill_Base(pydantic.BaseModel):
+    name: str
+    level: int
+
+class Skill(Skill_Base):
+    id: int
+    user_id: int
+
+    class Config:
+        orm_mode = True
+
+class SkillCreate(Skill_Base):
+    pass
