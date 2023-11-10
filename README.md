@@ -8,17 +8,17 @@ Select the installer according to your operating system, download the installer 
 It is very important that you select the MLS option when installing
 
 ## How to run the application
-1. download the repository [https://github.com/d3yn3r/factored-app](Factored APP)
+1. download the repository [Factored APP](https://github.com/d3yn3r/factored-app]
 To download the repository you must click on the green "code" button and then click download as zip
 
-2. After downloading the zip, you can use a tool to unzip it in the directory of your computer that you want, if you use windows I recommend using WinRAR, you can download it at [https://www.winrar.es/descargas](WinRar).
+2. After downloading the zip, you can use a tool to unzip it in the directory of your computer that you want, if you use windows I recommend using WinRAR, you can download it at [WinRar](https://www.winrar.es/descargas).
 
 3. After unzipping the zip, open a command terminal and navigate to the project folder
 
 4. inside the terminal run the command 'docker-compose up' without the quotes.
 wait for the backend and frontend server to be ready
 
-5. When the servers have been run you can access the page through the link http://localhost:3000/login
+5. When the servers have been run you can access the page through the link [http://localhost:3000/login](http://localhost:3000/login)
 Use the following information to enter the user's profile page:
 email : deyner@pruebas.com
 password : 12345678
@@ -33,7 +33,7 @@ In this window you will be able to see the basic information of the user, and th
 Deyner Elias Lopez Pineda
 
 # Credits
-[https://www.pildorasinformaticas.es/](Pildoras informaticas)
-[https://codevoweb.com/](Code Web)
-[https://python.plainenglish.io/](Medium)
+[Pildoras informaticas](https://www.pildorasinformaticas.es/)
+[Code Web](https://codevoweb.com/])
+[Medium](https://python.plainenglish.io/)
 
