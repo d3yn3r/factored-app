@@ -1,0 +1,55 @@
+/*login*/
+.column.is-half.is-offset-one-quarter {
+  margin-top: 50px; /* Ajusta el espacio superior según sea necesario */
+}
+
+.title.has-text-centered {
+  color: #3498db; /* Color del texto del título */
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 400px;
+  margin: 20px auto; /* Ajusta el margen según sea necesario */
+  padding: 20px;
+}
+
+.label {
+  color: #333; /* Color del texto de las etiquetas */
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button.is-primary {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button.is-primary:hover {
+  background-color: #2980b9;
+}
+
+.button.is-light {
+  background-color: #f4f4f4;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button.is-light:hover {
+  background-color: #ddd;
+}
